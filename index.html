@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <a href="" class="logo"></a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skill">Skills</a>
+            <a href="#Projects">Projects</a>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am <br /></h3>
+            <h1><span id="element"></span></h1>
+            <h3>Front-End Developer & UI/UX<br />Designer</h3>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/ulindu-kavmina-336b75296"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/MWUkavmina02"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="profilepic.svg" alt="">
+        </div>
+    </section>
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="aboutpic.svg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Front-End Developer &UI/UX Designer </h3>
+            <p>I am Front-End Web Developer & UI/UX Designer.I have been working as a freelance Front-End web developer.I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time.</p>
+
+        </div>
+    </section>
+    <!-- skills section -->
+    <section class="skill" id="skill">
+       <div class="skillbackgraound">
+         <h2 class="skillheading">My Skills</h2>
+
+         <div class="skill-container">
+            <div class="skill-box">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <div class="container">
+                    <div class="skills html">70%</div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <div class="container">
+                    <div class="skills css">40%</div>
+                  </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-js"></i>
+                <h3>JS</h3>
+                <div class="container">
+                    <div class="skills js">20%</div>
+                  </div>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-wordpress"></i>
+                <h3>Wordpres</h3>
+                <div class="container">
+                    <div class="skills wordpress">30%</div>
+                  </div>
+            </div>
+            
+         </div>
+       </div>
+
+    </section>
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @ukmw | All Right Reserved.</p>
+        </div>
+        <div class="footer-icontop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+              <!-- Scroll Reveal js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+              <!-- typejs -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+              <!-- type js -->
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', '&amp; UI/UX Designer.'],
+          typeSpeed: 50,
+          backSpeed:50,
+          loop:true,
+        });
+    </script>
+              <!-- MainJs -->
+    <script src="main.js"></script>
+</body>
+</html>
